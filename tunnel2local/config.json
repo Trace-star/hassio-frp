@@ -9,13 +9,13 @@
   "boot": "auto",
   "image": "zhujisheng/{arch}-addon-tunnel2local",
   "options": {
-    "frp_server": "hachinafrps.duckdns.org",
-    "frp_server_port": 7000,
-    "frp_token": "5da55d512161ea774cb56d72913a3aed",
+    "frp_server": "frp.whwhouse.com",
+    "frp_server_port": 5443,
+    "frp_token": "NerLZEIDMBcEW3IB",
     "local_host": "homeassistant",
     "local_port": 8123,
     "tunnel_type": "http",
-    "http_domain": "hachina.802154.com"
+    "http_domain": "frp.whwhouse.com"
   },
   "schema": {
     "frp_server": "str",
